@@ -204,6 +204,8 @@ export default function ProjectModal({ project, onClose }: Props) {
                     <a
                       key={l.label}
                       href={l.href}
+                      target="_blank"
+                      rel="noreferrer"
                       className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 text-sm text-white hover:bg-white/10"
                     >
                       {l.label}

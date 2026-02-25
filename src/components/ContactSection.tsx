@@ -77,7 +77,7 @@ export default function ContactSection() {
     } catch (err) {
       setStatus("error");
       setErrorMsg(
-        err instanceof Error ? err.message : "Failed to send message."
+        err instanceof Error ? err.message : "Failed to send message.",
       );
     }
   }
@@ -116,16 +116,20 @@ export default function ContactSection() {
               Email me
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/osomokhare-aliu-77341242/"
+              target="_blank"
               className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 text-sm text-white hover:bg-white/10"
+              rel="noreferrer"
             >
-              LinkedIn (placeholder)
+              LinkedIn
             </a>
             <a
-              href="#"
+              href="https://github.com/Digitalkhare"
+              target="_blank"
               className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 text-sm text-white hover:bg-white/10"
+              rel="noreferrer"
             >
-              GitHub (placeholder)
+              GitHub
             </a>
           </div>
         </div>

@@ -61,9 +61,9 @@ export const projects: Project[] = [
       ],
     },
     links: [
-      { label: "GitHub (placeholder)", href: "#" },
+      { label: "GitHub", href: "https://github.com/Digitalkhare" },
       { label: "Architecture Notes (placeholder)", href: "#" },
-      { label: "Live Demo (placeholder)", href: "#" },
+      { label: "Live Demo", href: "https://streamvibe.osomokhare.dev" },
     ],
   },
   {
@@ -117,9 +117,9 @@ export const projects: Project[] = [
       ],
     },
     links: [
-      { label: "GitHub (placeholder)", href: "#" },
+      { label: "GitHub", href: "https://github.com/Digitalkhare" },
       { label: "Architecture Notes (placeholder)", href: "#" },
-      { label: "Live Demo (placeholder)", href: "#" },
+      { label: "Live Demo ", href: "https://smartcommerce.osomokhare.dev" },
     ],
   },
 ];
